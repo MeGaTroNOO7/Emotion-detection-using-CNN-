@@ -17,7 +17,7 @@ else:
 
         cv2.imshow("Camera", frame)
 
-        # Exit if 'q' is pressed
+        
         if cv2.waitKey(1) == ord('q'):
             break
 
