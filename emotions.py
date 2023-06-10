@@ -111,7 +111,7 @@ elif mode == "display":
     # start the webcam feed
     cap = cv2.VideoCapture(0)
     if cap != True:
-        print("Working at accurracy : 65.6%") 
+        print() 
     while True:
         # Find haar cascade to draw bounding box around face
         ret, frame = cap.read()
