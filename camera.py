@@ -12,7 +12,7 @@ else:
         ret, frame = cap.read()
 
         if not ret:
-            print("Failed to read frame")
+            print("Failed to read camera port")
             break
 
         cv2.imshow("Camera", frame)
