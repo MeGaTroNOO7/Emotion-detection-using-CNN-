@@ -86,7 +86,7 @@ model.add(Dense(1024, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(7, activation='softmax'))
 
-# If you want to train the same model or try other models, go for this
+# to train the model
 if mode == "train":
     model.compile(loss='categorical_crossentropy',optimizer=Adam(lr=0.0001, decay=1e-6),metrics=['accuracy'])
     model_info = model.fit_generator(
