@@ -5,7 +5,7 @@ cap = cv2.VideoCapture(0)
 
 # Check if the camera is opened successfully
 if not cap.isOpened():
-    print("Failed to open camera")
+    print("Check camera connection")
 else:
     # Read and display frames from the camera
     while True:
